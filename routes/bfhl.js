@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { validateFile } = require('../utils/fileUtils');
+const { validateFile } = require('./fileUtils');
 
 // GET endpoint
 router.get('/', (req, res) => {
